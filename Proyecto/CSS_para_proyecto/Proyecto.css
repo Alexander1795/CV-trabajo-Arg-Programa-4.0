@@ -1,7 +1,10 @@
+
 .fondo{
     background-color: rgba(177, 80, 223, 0.644);   
 }
-
+#center{
+    padding-left: 20%;
+}
 #nom-ape{
     color: black;
     padding-left: 30%;
@@ -29,7 +32,6 @@
     border-radius: 12px;
     float: right;
     margin-right: 25px;
-    font-weight: 700;
     font-size: small;
     background-color: rgba(87, 41, 109, 0.644);
     
@@ -59,6 +61,7 @@
     
 } 
 @media screen and (max-width: 600px) {
+    
     #img {
       width: 90px;
     }
@@ -77,18 +80,32 @@
         font-weight: normal;
         padding: 0px;
         color: rgb(255, 255, 255);
-        font-weight: 500;
         margin-right: 5px;
 
     }
+    
     #contactos{
         padding: 3px;
-    color: black;
-    border: 1px solid black;
-    border-radius: 12px;
-    float: left;
-    font-size: small;
+        color: black;
+        border: 1px solid black;
+        border-radius: 12px;
+        float: left;
+        font-size: small;
+        
     }
+    #info{
+        float: left;
+        width: 250px;
+        border-radius: 12px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    #extra{
+        float: left;
+        width: 250px;
+        border-radius: 12px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
     #fondo{
         background-color: rgba(167, 168, 228, 0.459);
     }
@@ -120,4 +137,24 @@
     #fondo{
         background-color: rgb(126, 180, 124, 0.452);
     }
+    #hab{
+        background-color: rgba(76, 109, 75, 0.733);
+        margin-right: 45px; 
+    }
 }
+
+#hab{
+    padding: 3px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    float: right;
+    margin-right: 25px;
+    font-size: small;
+    background-color: rgba(87, 41, 109, 0.644); 
+}
+
+#box{
+    box-sizing: border-box;
+}
+
