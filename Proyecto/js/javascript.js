@@ -5,5 +5,5 @@ console.log(button); // 👉️ button#btn
 // ✅ Works
 button.onclick = function click() {
   console.log('Button clicked');
-  document.getElementById("demo").innerHTML = "Hola chiche"
- }
+  document.getElementById("demo").innerHTML = "Gran motivacion para seguir perfeccionando habilidades y crecer porfesionalmente sin miedo a equivocarme con un alto grado de responsabilidad"
+}
